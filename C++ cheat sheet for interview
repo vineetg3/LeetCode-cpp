@@ -142,9 +142,12 @@ queue<int> q;
 s.top();                                       // access the top element
 s.push();
 s.pop();
-q.front();                                     // access the first element in queue
-q.pop();                                       // does not return element !!!!!
+
+q.push();
+q.front(); // access the first element in queue                                     
+q.pop(); // does not return element                                     
 q.empty();
+queue.back(); //access the last element
 
 priority_queue<int> pq;                        // max heap by default
 pq.push(val);
